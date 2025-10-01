@@ -1,12 +1,17 @@
 ---
 mapped_pages:
   - https://www.elastic.co/guide/en/fleet/current/fleet-server-secrets.html
+applies_to:
+  deployment:
+    ece: ga
+    ess: ga
+    self: ga
 products:
   - id: fleet
   - id: elastic-agent
 ---
 
-# Fleet Server Secrets [fleet-server-secrets]
+# Fleet Server secrets [fleet-server-secrets]
 
 {{fleet-server}} configuration can contain secret values. You may specify these values directly in the configuration or through secret files. You can use command line arguments to pass the values or file paths when you are running under {{agent}}, or you can use environment variables if {{agent}} is running in a container.
 

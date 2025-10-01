@@ -1,6 +1,11 @@
 ---
 mapped_pages:
   - https://www.elastic.co/guide/en/fleet/current/secret-files-guide.html
+applies_to:
+  deployment:
+    ece: ga
+    ess: ga
+    self: ga
 products:
   - id: fleet
   - id: elastic-agent
